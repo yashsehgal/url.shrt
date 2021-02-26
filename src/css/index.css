@@ -1,0 +1,31 @@
+body ::-moz-selection {
+  color: white;
+  background-color: black;
+}
+
+body ::selection {
+  color: white;
+  background-color: black;
+}
+
+.input {
+  padding: 0.4em;
+  font-family: "Poppins";
+  color: black;
+  width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+}
+
+.button {
+  color: white;
+  background-color: black;
+  padding: 0.4em;
+  font-family: "Poppins";
+  margin: 12px;
+}
+/*# sourceMappingURL=index.css.map */
